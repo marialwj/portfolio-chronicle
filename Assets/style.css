@@ -11,7 +11,7 @@ body {
 .main-header {
     padding: 20px;
     background-color: rgb(255, 244, 230);
-    color: black;
+    color: rgb(255, 244, 230);
 }
 
 .main-header h1 {
@@ -34,9 +34,52 @@ body {
     display: inline-block;
 }
 
+.main-header li {
+    text-decoration: underline;
+    text-decoration-color: rgb(60,47,47);
+    color: rgb(60,47,47);
+}
+
 .main-header {
     padding-top: 15px;
     margin-right: 0px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 25px;
 }
+
+.main-picture {
+    height: fit-content;
+    width: 100%;
+    margin-bottom: 25px;
+    background-size: cover;
+    background-position: center;
+}
+
+.text-box {
+    position: absolute;
+    top: 426px;
+    left: 1483px;
+    background-color: rgba(255, 255, 255, 0.7); /* Adjust the background color and transparency */
+    padding: 10px;
+  }
+  
+  .text-box h2 {
+    margin: 0;
+    color: black; /* Adjust the text color */
+  }
+  
+  .main-picture {
+    height: 400px; /* Adjust the height as needed */
+    width: 100%;
+    background-image: url('your-image-url.jpg'); /* Add your image URL here */
+    background-size: cover;
+    background-position: center;
+  }
+
+  @media screen and (max-width:768px) {
+    .main-header ul li {
+        display: inline-block;
+        
+    }
+    
+  }
