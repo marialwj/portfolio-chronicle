@@ -4,6 +4,8 @@
     margin: 0;
 }
 
+/* MAIN CONTENTS  */
+
 body {
     background-color: rgb(190, 155, 123);
 }
@@ -58,28 +60,55 @@ body {
 .text-box {
     position: absolute;
     top: 426px;
-    left: 1483px;
-    background-color: rgba(255, 255, 255, 0.7); /* Adjust the background color and transparency */
+    right: 16px;
+    background-color: rgba(255, 255, 255, 0.7);
     padding: 10px;
   }
-  
-  .text-box h2 {
-    margin: 0;
-    color: black; /* Adjust the text color */
-  }
-  
+
   .main-picture {
-    height: 400px; /* Adjust the height as needed */
-    width: 100%;
-    background-image: url('your-image-url.jpg'); /* Add your image URL here */
     background-size: cover;
     background-position: center;
   }
 
-  @media screen and (max-width:768px) {
-    .main-header ul li {
-        display: inline-block;
-        
+  /* About Me elements  */
+
+  .about-me-section {
+    display: flex;
+    align-items: center;
+  }
+
+  .about-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+
+  .about-header h2 {
+    font-size: 50px;
+    margin-left: 50px;
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+
+  .vertical-line-1 {
+    height: 150px;
+    border-left: 5px solid black;
+    margin-left: 20px;
+  }
+
+  .about-me-text {
+    margin-left: 40px;
+  }
+
+  .about-me-text p {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 25px;
+    line-height: 1.5;
+  }
+
+  @media screen and (max-width: 768px) {
+    #navbar {
+        display: none;  
     }
     
   }
