@@ -26,9 +26,10 @@ N/A
 
 ## Usage
 
-HTML FILE LINK: file:///Users/mariageorgy/bootcamp/challenge-2/index.html#
+HTML FILE LINK: file:///Users/mariageorgy/bootcamp/challenge-2/index.html
 
-Screenshot: ![Final result of webpage](screenshot.png)
+Screenshot: ![Gif of Maria's Portfolio](<Assets/Maria's Portfolio.gif>)
+
 
 ## Contribution
 
